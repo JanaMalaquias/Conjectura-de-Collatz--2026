@@ -13,6 +13,6 @@ A Conjectura de Collatz, ou problema, é um enigma matemático simples: para qua
 
 ## Para testar
 
--1 Clone este projeto
--2 Abra com VsCode
--3 Execute o arquivo index.html com live Server
+- 1 Clone este projeto
+- 2 Abra com VsCode
+- 3 Execute o arquivo index.html com live Server
