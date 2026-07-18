@@ -2,21 +2,23 @@
 
 ## 📖 Descrição
 
-Este projeto foi desenvolvido para resolver o desafio da **Conjectura de Collatz**, um famoso problema matemático que afirma que, para qualquer número inteiro positivo, ao aplicar repetidamente as seguintes regras, sempre será possível chegar ao número 1:
+Este projeto foi desenvolvido para resolver o desafio da **Conjectura de Collatz**.
 
-- Se o número for **par**, divida-o por 2.
-- Se o número for **ímpar**, multiplique-o por 3 e some 1.
+A Conjectura de Collatz afirma que, para qualquer número inteiro positivo, ao aplicar repetidamente as seguintes regras, sempre será possível chegar ao número 1:
 
-O programa recebe um número inteiro positivo informado pelo usuário, calcula a sequência de Collatz, exibe todos os números gerados e informa a quantidade de passos necessários para chegar ao número 1.
+- Se o número for par, divida-o por 2.
+- Se o número for ímpar, multiplique-o por 3 e some 1.
+
+O programa solicita ao usuário um número inteiro positivo, calcula a sequência gerada, exibe todos os valores da sequência e informa quantos passos foram necessários para chegar ao número 1.
 
 ---
 
 ## 🚀 Funcionalidades
 
-- Recebe um número inteiro positivo.
+- Recebe um número inteiro positivo informado pelo usuário.
 - Calcula a sequência da Conjectura de Collatz.
 - Exibe a sequência completa.
-- Informa a quantidade de passos até chegar ao número 1.
+- Informa a quantidade de passos necessários para chegar ao número 1.
 - Valida se o número informado é positivo.
 
 ---
@@ -27,43 +29,54 @@ O programa recebe um número inteiro positivo informado pelo usuário, calcula a
 
 ---
 
-## ▶️ Como executar
+## 📂 Estrutura do Projeto
 
-1. Clone este repositório:
-
-```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
+```
+Conjectura-de-Collatz--2026/
+│
+├── Conjectura-de-collatz-2026.py
+└── README.md
 ```
 
-2. Acesse a pasta do projeto:
+---
+
+## ▶️ Como executar
+
+1. Clone o repositório:
 
 ```bash
-cd seu-repositorio
+git clone https://github.com/JanaMalaquias/Conjectura-de-Collatz--2026.git
+```
+
+2. Entre na pasta do projeto:
+
+```bash
+cd Conjectura-de-Collatz--2026
 ```
 
 3. Execute o programa:
 
 ```bash
-python main.py
+python Conjectura-de-collatz-2026.py
 ```
 
-Caso o comando acima não funcione, utilize:
+Caso necessário, utilize:
 
 ```bash
-python3 main.py
+python3 Conjectura-de-collatz-2026.py
 ```
 
 ---
 
 ## 💻 Exemplo de execução
 
-Entrada:
+**Entrada:**
 
 ```
 Digite um número inteiro positivo: 6
 ```
 
-Saída:
+**Saída:**
 
 ```
 Sequência:
@@ -74,24 +87,22 @@ Quantidade de passos: 8
 
 ---
 
-## 📂 Estrutura do Projeto
+## 📚 Conceitos Aplicados
 
-```
-.
-├── main.py
-└── README.md
-```
+- Estruturas condicionais (`if` e `else`)
+- Estruturas de repetição (`while`)
+- Funções
+- Listas
+- Entrada e saída de dados
+- Tratamento de exceções (`try` e `except`)
 
 ---
 
-## 📚 Conceitos Aplicados
+## 👩‍💻 Autora
 
-- Estruturas de repetição (`while`)
-- Estruturas condicionais (`if` / `else`)
-- Funções
-- Listas
-- Tratamento de exceções (`try` / `except`)
-- Entrada e saída de dados
+**Jana Malaquias**
+
+GitHub: https://github.com/JanaMalaquias
 
 ---
 
