@@ -7,9 +7,9 @@ A Conjectura de Collatz, ou problema, é um enigma matemático simples: para qua
 
 ## Tecnologias
 
--Python
--Git
--VsCode
+- Python
+- Git
+- VsCode
 
 ## Para testar
 
